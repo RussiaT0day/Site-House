@@ -1,0 +1,25 @@
+.reaction
+{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.reaction p
+{
+    font-family: 'TTNorms-Bold', sans-serif;
+    font-size: 48px;
+    text-align: center;
+}
+
+.reaction img
+{
+    width: 256px;
+    height: 256px;
+    margin:0 auto ;
+}
+
+

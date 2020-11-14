@@ -1,0 +1,159 @@
+
+body
+{
+    padding: 0;
+    margin: 0;
+}
+
+.phone-form-back
+{
+    display:none ;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+}
+
+.phone-form
+{
+    width: 30%;
+    height: 230px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    border: 1px solid black;
+    border-radius: 26px;
+    background-color: white;
+    z-index: 2;
+}
+
+.phone-form h1
+{
+    text-align: center;
+    font-family: 'TTNorms-Regular', sans-serif;
+
+}
+.phone-form > form
+{
+    margin: auto;
+}
+.phone-form > form
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.phone-form > form > input
+{
+    width: 40%;
+    height: 50px;
+    border-radius: 26px;
+    border: 1px solid #d5b693;
+    padding-left: 22px;
+    font-size: 16px;
+    color: #365a6f;
+    outline: none;
+    font-family: 'TTNorms-Regular', sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.phone-form > form > button
+{
+    margin: 10px 10px 0px 10px;
+}
+
+.btn
+{
+    width: 225px;
+    height: 40px;
+    background: radial-gradient(at top, #e55650, #ca2922);
+    font-family: sans-serif;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 26px;
+    border: none;
+    transition: 0.4s;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.btn:hover
+{
+    background: #91000C;
+}
+
+@media screen and (max-width: 1200px)
+{
+    .phone-form
+    {
+        width: 45%;
+
+    }
+}
+
+@media screen and (max-width: 960px)
+{
+    .phone-form
+    {
+        width: 55%;
+
+    }
+}
+
+@media screen and (max-width: 720px)
+{
+    .phone-form {
+        width: 80%;
+
+    }
+}
+@media screen and (max-width: 560px)
+{
+    .phone-form
+    {
+        overflow: hidden;
+        width: 100%;
+        height: 40%;
+        padding-bottom: 10px;
+
+    }
+    .phone-form form
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .phone-form form > input
+    {
+        width: 85%;
+    }
+    .phone-form form > button
+    {
+        width: 90%;
+        margin-right: 2px;
+    }
+}
+
+@media screen and (max-width: 320px)
+{
+    .phone-form
+    {
+        height:60%;
+    }
+
+
+}
